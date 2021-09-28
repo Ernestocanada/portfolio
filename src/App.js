@@ -15,7 +15,7 @@ import Brightness6Icon from "@material-ui/icons/Brightness6";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import Switch from "@material-ui/core/Switch";
-
+import React from "react";
 function App() {
   const [theme, setTheme] = useState("dark-theme");
   const [checked, setChecked] = useState(false);
