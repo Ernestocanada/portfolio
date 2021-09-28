@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1bd02060.chunk.js",
+    "main.js.map": "/static/js/main.1bd02060.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
+    "static/js/2.19089e2c.chunk.js": "/static/js/2.19089e2c.chunk.js",
+    "static/js/2.19089e2c.chunk.js.map": "/static/js/2.19089e2c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.19089e2c.chunk.js.LICENSE.txt": "/static/js/2.19089e2c.chunk.js.LICENSE.txt",
+    "static/media/Background.0614f42b.jpg": "/static/media/Background.0614f42b.jpg",
+    "static/media/ErnestoResume .1ed27f88.pdf": "/static/media/ErnestoResume .1ed27f88.pdf",
+    "static/media/api.99b955fb.jpg": "/static/media/api.99b955fb.jpg",
+    "static/media/cloud-hosting.f0bd1a58.png": "/static/media/cloud-hosting.f0bd1a58.png",
+    "static/media/coming.f21f7d0a.jpg": "/static/media/coming.f21f7d0a.jpg",
+    "static/media/ernesto1.77ae7c80.jpg": "/static/media/ernesto1.77ae7c80.jpg",
+    "static/media/ernesto2.539e0cc7.jpg": "/static/media/ernesto2.539e0cc7.jpg",
+    "static/media/face.d1466d7f.jpg": "/static/media/face.d1466d7f.jpg",
+    "static/media/hosting.feb546fb.png": "/static/media/hosting.feb546fb.png",
+    "static/media/marketing.699c81e0.png": "/static/media/marketing.699c81e0.png",
+    "static/media/online-marketing.d94f958c.png": "/static/media/online-marketing.d94f958c.png",
+    "static/media/recipe.b95c37f8.jpg": "/static/media/recipe.b95c37f8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f027f2bf.js",
+    "static/js/2.19089e2c.chunk.js",
+    "static/js/main.1bd02060.chunk.js"
+  ]
+}
