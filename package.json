@@ -16,7 +16,7 @@
     "react-parallax-tilt": "^1.5.57",
     "react-particles-js": "^3.5.3",
     "react-router-dom": "^5.2.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-tsparticles": "^1.34.0",
     "serve": "^12.0.1",
     "styled-components": "^5.3.1",
@@ -28,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
