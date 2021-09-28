@@ -81,10 +81,10 @@ function App() {
           <Route path="/" exact>
             <HomePage />
           </Route>
-          <Route path="/about" exact>
+          <Route path="/about">
             <AboutPage />
           </Route>
-          <Route path="/resume" exact>
+          <Route path="/resume">
             <ResumePage />
           </Route>
           <Route path="/portfolio" exact>
@@ -93,7 +93,7 @@ function App() {
           {/* <Route path="/blog" exact>
             <BlogPage />
           </Route> */}
-          <Route path="/contact" exact>
+          <Route path="/contact">
             <ContactPage />
           </Route>
         </Switching>
