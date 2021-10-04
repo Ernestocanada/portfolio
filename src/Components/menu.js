@@ -134,11 +134,11 @@ const MenuItemStyled = styled.div`
           }
         }
         &::before {
-          height: calc(100% - 32%);
+          /* height: calc(100% - 32%);
           width: calc(100% - 4%);
           background-color: white;
           opacity: 0.9;
-          transform-origin: left;
+          transform-origin: left; */
 
           transition: all 0.4s ease-in-out;
         }

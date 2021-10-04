@@ -1,5 +1,5 @@
 import game from "../image/Ernesto/diceGame.jpg";
-import background from "../image/Ernesto/Background.jpg";
+import background from "../image/Ernesto/bit.jpg";
 import face from "../image/Ernesto/face.jpg";
 import recipe from "../image/Ernesto/recipe.jpg";
 import coding from "../image/Ernesto/api.jpg";
@@ -8,12 +8,12 @@ import coming from "../image/Ernesto/coming.jpg";
 const portfolios = [
   {
     id: 1,
-    category: "JAVASCRIPT",
+    category: "REACT",
     image: background,
-    link1: "https://github.com/Ernestocanada/backgroung-generator",
-    link2: "https://background-colorgenerator.netlify.app/",
-    title: "Background-Generator",
-    text: "HTML 34.8% JavaScript 33.3% CSS 31.9%",
+    link1: "https://cryptoernesto.netlify.app/",
+    link2: "https://cryptoernesto.netlify.app",
+    title: "Cryptocurrency App",
+    text: "Reactjs,Redux Toolkit,Chart.js,RapidAPI",
   },
   {
     id: 2,

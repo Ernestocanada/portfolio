@@ -5,10 +5,12 @@ import Title from "../Components/Title";
 
 import ImageSection from "../Components/ImageSection";
 import ServicesSection from "../Components/ServicesSection";
+import ParticlesBackground from "../Components/Particules";
 
 export default function AboutPage() {
   return (
     <MainLaout>
+      <ParticlesBackground />
       <AboutStyled>
         <Title title={"About Me"} span={"About Me"} />
         <ImageSection />

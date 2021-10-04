@@ -20,48 +20,50 @@ export default function ContactPage() {
       <ContactPageStyled>
         <Title title={"Contact"} span={"Contact"} />
         <InnerLayout className="contact-section">
-          <div className="left-content">
-            <ContactForm />
-          </div>
+          <div className="container">
+            <div className="left-content">
+              <ContactForm />
+            </div>
 
-          <div className="right-content">
-            <a
-              className="right"
-              href="mailto:ernesto.delapenamolina@gmail.com?subject=Mail from Ernesto Website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ContactItem
-                icon={emailIcon}
-                title={"Email"}
-                emailLink={"ernesto.delapenamolina@gmail.com"}
-              />
-            </a>
-            <a
-              className="right"
-              href="https://en.wikipedia.org/wiki/Kitchener,_Ontario"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ContactItem
-                icon={locationCity}
-                title={"Location Canada"}
-                contact2={"Kitchener, Ontario, Canada"}
-              />
-            </a>
+            <div className="right-content">
+              <a
+                className="right"
+                href="mailto:ernesto.delapenamolina@gmail.com?subject=Mail from Ernesto Website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ContactItem
+                  icon={emailIcon}
+                  title={"Email"}
+                  emailLink={"ernesto.delapenamolina@gmail.com"}
+                />
+              </a>
+              <a
+                className="right"
+                href="https://en.wikipedia.org/wiki/Kitchener,_Ontario"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ContactItem
+                  icon={locationCity}
+                  title={"Location Canada"}
+                  contact2={"Kitchener, Ontario, Canada"}
+                />
+              </a>
 
-            <a
-              className="right"
-              href="https://en.wikipedia.org/wiki/Alicante"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ContactItem
-                icon={locationCity}
-                title={"Location Spain"}
-                contact1={"Alicante, Alicante, Spain"}
-              />
-            </a>
+              <a
+                className="right"
+                href="https://en.wikipedia.org/wiki/Alicante"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ContactItem
+                  icon={locationCity}
+                  title={"Location Spain"}
+                  contact1={"Alicante, Alicante, Spain"}
+                />
+              </a>
+            </div>
           </div>
         </InnerLayout>
       </ContactPageStyled>
@@ -70,44 +72,38 @@ export default function ContactPage() {
 }
 
 const ContactPageStyled = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  .contact-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
+  .container {
+    width: 90vh;
 
-    @media screen and (max-width: 900px) {
-      display: flex;
-      flex-direction: column;
-
-      align-content: center;
-      align-items: center;
-    }
-  }
-
-  .left-content {
-    width: 400px;
     display: flex;
     flex-direction: column;
 
-    @media screen and (max-width: 500px) {
-      width: 44%;
+    @media screen and (max-width: 1000px) {
+      margin-left: -250px;
+      width: 80vh;
     }
-  }
 
-  .right-content {
+    .left-content {
+      /*  width: 400px;
     display: flex;
+    flex-direction: column; */
+
+      /*  @media screen and (max-width: 500px) {
+      width: 44%;
+    } */
+    }
+
+    .right-content {
+      /*  display: flex;
     flex-direction: column;
     margin-left: 15px;
     margin-top: 25px;
     margin-right: 0;
-    padding-right: 0;
+    padding-right: 0; */
 
-    .right {
-      padding-bottom: 15px;
+      .right {
+        padding-bottom: 15px;
+      }
     }
   }
 `;

@@ -10,7 +10,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import ResumePage from "./pages/ResumePage";
 import MouseParticles from "react-mouse-particles";
 import { Route, Switch as Switching } from "react-router-dom";
-import ParticlesBackground from "./Components/Particules";
+
 import Brightness6Icon from "@material-ui/icons/Brightness6";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <MouseParticles
         g={1}
         num={20}
@@ -44,7 +44,6 @@ function App() {
         cull="stats,image-wrapper"
         level={6}
       />
-      <ParticlesBackground />
 
       <Sidebar navToggle={navToggle} />
       <div className="theme">

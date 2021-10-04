@@ -132,47 +132,54 @@ export default ContactForm;
 
 const ContactFormStyled = styled.div`
   display: flex;
-  .contact-title {
-    h4 {
+  width: 80vh;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    .contact-title {
+      h4 {
+        color: var(--white-color);
+        padding: 0.5rem 0;
+        font-size: 1.8rem;
+      }
+    }
+    .form-field {
+      margin-top: 2rem;
+      width: 100%;
+
+      p {
+        color: red;
+      }
+    }
+
+    label {
+      background-color: var(--background-dark-color);
+    }
+
+    input {
+      border: 1px solid var(--border-color);
+
+      background: transparent;
+      height: 50px;
+      padding: 0.7rem 15px;
+      width: 100%;
       color: var(--white-color);
-      padding: 0.5rem 0;
-      font-size: 1.8rem;
     }
-  }
-  .form-field {
-    margin-top: 2rem;
-    width: 100%;
 
-    p {
-      color: red;
+    textarea {
+      padding: 5px;
+      background: transparent;
+      width: 100%;
+      color: var(--white-color);
+      border: 1px solid var(--border-color);
     }
-  }
-
-  label {
-    background-color: var(--background-dark-color);
-  }
-
-  input {
-    border: 1px solid var(--border-color);
-
-    background: transparent;
-    height: 50px;
-    padding: 0.7rem 15px;
-    width: 100%;
-    color: var(--white-color);
-  }
-
-  textarea {
-    padding: 5px;
-    background: transparent;
-    width: 100%;
-    color: var(--white-color);
-    border: 1px solid var(--border-color);
-  }
-  button {
-    all: unset;
-    margin-left: 20px;
-    margin-top: 6px;
-    margin-bottom: 20px;
+    button {
+      all: unset;
+      margin-left: 20px;
+      margin-top: 6px;
+      margin-bottom: 20px;
+    }
   }
 `;

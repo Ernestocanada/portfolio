@@ -4,10 +4,12 @@ import styled from "styled-components";
 import { GitHub } from "@material-ui/icons";
 import { LinkedIn } from "@material-ui/icons";
 import { MainLaout } from "../styles/Layout";
+import ParticlesBackground from "../Components/Particules";
 
 export default function HomePage() {
   return (
     <MainLaout>
+      <ParticlesBackground />
       <HomePageStyled>
         <div className="typography">
           <h1>

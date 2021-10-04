@@ -77,6 +77,10 @@ body {
   transition: all .4s ease-in-out;
 }
 
+.app {
+  
+}
+
 
 a{
   font-family: inherit;

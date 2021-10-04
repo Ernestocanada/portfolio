@@ -56,7 +56,11 @@ export default function PortfolioPage() {
 
         <InnerLayout>
           <div className="container1">
-            <Button category={categoryButton} buttons={button} />
+            <Button
+              className="buttons"
+              category={categoryButton}
+              buttons={button}
+            />
             <Menu items={menuItem} />
           </div>
         </InnerLayout>
@@ -70,4 +74,11 @@ const PortfolioPageStyle = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-end;
+
+  @media screen and (max-width: 1000px) {
+    margin-left: -150px;
+    Button {
+      display: none;
+    }
+  }
 `;

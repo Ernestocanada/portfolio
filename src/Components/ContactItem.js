@@ -43,7 +43,9 @@ export default function ContactItem({
 }
 
 const ContactItemStyled = styled.div`
-  padding: 1.5rem 2rem;
+  display: flex;
+  width: 60vh;
+  margin-top: 25px;
   background-color: var(--background-dark-grey);
 
   align-items: center;
@@ -59,7 +61,7 @@ const ContactItemStyled = styled.div`
     padding: 2rem;
     border: 1px solid var(--border-color);
     font-size: 2rem;
-    display: flex;
+
     align-items: center;
     justify-content: center;
     margin-right: 1.5rem;
