@@ -57,6 +57,9 @@ const HomePageStyled = styled.header`
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-end;
+  @media screen and (max-width: 900px) {
+    margin-left: -250px;
+  }
   .typography {
     margin-top: 5vh;
     display: flex;
