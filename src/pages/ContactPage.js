@@ -72,15 +72,14 @@ export default function ContactPage() {
 }
 
 const ContactPageStyled = styled.section`
+  display: flex;
+  flex-direction: column;
   .container {
-    width: 90vh;
-
     display: flex;
     flex-direction: column;
 
     @media screen and (max-width: 1000px) {
       margin-left: -250px;
-      width: 80vh;
     }
 
     .left-content {

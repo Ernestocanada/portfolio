@@ -44,7 +44,7 @@ export default function ContactItem({
 
 const ContactItemStyled = styled.div`
   display: flex;
-  width: 60vh;
+  width: 80vh;
   margin-top: 25px;
   background-color: var(--background-dark-grey);
 
