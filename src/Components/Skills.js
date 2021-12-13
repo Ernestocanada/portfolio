@@ -64,6 +64,12 @@ export default function Skills() {
             />
             <ProgressBar
               className="skill"
+              title={"OutSystems"}
+              width={"80%"}
+              text={"80%"}
+            />
+            <ProgressBar
+              className="skill"
               title={"MongoDB / PostgresSQL"}
               width={"70%"}
               text={"70%"}
